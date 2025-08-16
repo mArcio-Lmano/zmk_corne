@@ -12,8 +12,8 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
-    - name: nice_view_module   #new entry
+    - name: nice_view_module                     #new entry
       remote: mArcio-Lmano                       #new entry
-      revision: New/animation                     #new entry
+      revision: feat/love_image                     #new entry
   self:
     path: config
