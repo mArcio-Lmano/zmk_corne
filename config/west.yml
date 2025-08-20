@@ -14,6 +14,6 @@ manifest:
       import: app/west.yml
     - name: nice_view_module                     #new entry
       remote: mArcio-Lmano                       #new entry
-      revision: feat/love_image                     #new entry
+      revision: feat/sunflower                     #new entry
   self:
     path: config
