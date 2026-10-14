@@ -1,0 +1,20 @@
+if SHIELD_NICE_VIEW_CUSTOM
+
+config ZMK_DISPLAY
+    select LV_FONT_MONTSERRAT_12
+    select LV_FONT_MONTSERRAT_16
+    select LV_USE_LABEL
+    select LV_USE_LINE
+    select LV_USE_CANVAS
+
+if ZMK_DISPLAY
+
+config ZMK_DISPLAY_STATUS_SCREEN_CUSTOM
+    default y
+
+config ZMK_WPM
+    default y if ZMK_SPLIT_ROLE_CENTRAL
+
+endif # ZMK_DISPLAY
+
+endif # SHIELD_NICE_VIEW_CUSTOM
